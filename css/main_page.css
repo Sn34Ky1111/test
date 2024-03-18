@@ -1,0 +1,325 @@
+#main{
+    float: left;
+    margin-top: 20px;
+}
+
+aside{
+    float: left;
+    margin-top: 20px;
+}
+
+#videos{
+    float: left;
+    width: 90%;
+    
+}
+
+.video{
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    color: #646464;
+
+}
+
+.video>img{
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.video>span{
+    float: right;
+    font-weight: bold;
+    color: rgba(236, 101, 80, 1);
+}
+
+#videos>a>.btn{
+    float: left;
+    margin-left: 50%;
+
+}
+
+#one_video{
+    float: left;
+    margin-top: 10px;
+
+}
+
+#one_video>img{
+    width: 60%;
+    float: left;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.heading{
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 2px solid #db6e6e;
+    float: left;
+    color: #4f4f4f;
+    padding: 0px 5px;
+}
+
+.heading:first-letter{
+    color: #db6e6e;
+}
+
+#news{
+    float: left;
+
+}
+
+.article{
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    background-color: white;
+    box-sizing: border-box;
+    max-width: 350px;
+    border-radius: 5px;
+}
+
+.article>img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100px;
+
+}
+
+.article>span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+    width: 80%;
+    margin: 7px 10%;
+    float: left;
+    text-align: center;
+    color: #333;
+}
+
+#news>a>.btn{
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 28.5%;
+    
+}
+
+@media (min-width: 1051px){
+    #main{
+        width: 60%;
+        margin-left: 3%;
+    }
+
+    aside{
+        width: 30%;
+        margin-left: 2%;
+    }
+
+    #news{
+        margin-left: 10%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 1050px) and (min-width: 911px) {
+    #main{
+        width: 65%;
+        margin-left: 2%;
+    }
+
+    aside{
+        width: 32%;
+    }
+
+    #news{
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media (max-width: 910px) and (min-width: 500px) {
+    #main{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    aside{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #news{
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media (max-width: 499px) {
+    #main{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    aside{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #news{
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media (min-width: 1220px){
+    .article{
+        width: 40%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 1219px) and (min-width: 650px){
+    .article{
+        width: 46%;
+        margin-right: 4%;
+    }
+}
+
+@media (max-width: 910px) and (min-width: 650px){
+    .article{
+        width: 45%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 649px) and (min-width: 500px){
+    .article{
+        width: 70%;
+        margin-right: 15%;
+    }
+}
+
+@media (max-width: 499px){
+    .article{
+        width: 90%;
+        margin-right: 5%;
+
+    }
+}
+
+@media (max-width: 600px){
+    #videos a>.btn{
+        margin-left: 33%!important;
+    }
+}
+
+@media (max-width: 440px){
+    #main a>.btn{
+        margin-left: 5%!important;
+    }
+}
+
+/* нижня частина сайту*/
+
+#subscribe{
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+@media (min-width: 911px) {
+    #subscribe{
+        width: 70%;
+    }
+
+    #sub_to_project{
+        width: 25%;
+    }
+
+}
+
+@media (max-width: 910px) {
+    #subscribe{
+        width: 100%;
+    }
+
+    #sub_to_project{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+
+#subscribe>span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    color: #434343;
+}
+
+#sub_to_project{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+#sub_to_project>p{
+    width: 100%;
+    color: #333;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+
+}
+
+#sub_to_project>a>.btn{
+    background-color: #21a7e1;
+    border-bottom-color: #1999d1;
+    float: left;
+    text-align: center;
+}
+
+#web_news{
+    width: 98%;
+    border-top: 2px solid #d7d7d7;
+    position: relative;
+    padding: 1%;
+    background-color: #efefef;
+    text-align: center;
+    min-height: 150px;
+
+}
+
+#web_news>span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5em;
+    color: #434343;
+
+
+}
+
+#web_news>a>.btn{
+    position: absolute;
+    margin: 0;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -80%);
+    font-size: 2em;
+
+}
+
+/* Dobavil knopky skizy stranici*/
+
+
